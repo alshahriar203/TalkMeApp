@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Chat App</title>
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+</head>
+<body>
+    <h1>Video Chat App</h1>
+    <button onclick="call()">Call</button>
+    <div id="offers"></div>
+    <div>
+        <h2>Local Video</h2>
+        <video id="localVideo" autoplay></video>
+    </div>
+    <div>
+        <h2>Remote Video</h2>
+        <video id="remoteVideo" autoplay></video>
+    </div>
+</body>
+</html>
